@@ -1,6 +1,6 @@
  wsui
 ===
-use websocket to build website.
+use websocket to build website.<br>
 wsui can help you build web application earily.
 
 # example
@@ -48,13 +48,13 @@ so we can open the website by http://localhost:8080/
 
 --------
 
-*func (t *ui)View(body string)
+* func (t *ui)View(body string)<br>
 change the innerHTML in page body
 
-*func (t *ui)Bind(name string, f interface{})
+* func (t *ui)Bind(name string, f interface{})<br>
 bind a go function to a javascript function, so that the page can send argment to server, and server can return result by its return value
 
-*func (t *ui)Exec(js string)
+* func (t *ui)Exec(js string)<br>
 ask the browser to run the javascript code in string
 
 -----------
