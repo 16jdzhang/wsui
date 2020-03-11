@@ -57,6 +57,12 @@ bind a go function to a javascript function, so that the page can send argment t
 * func (t *ui)Exec(js string)<br>
 ask the browser to run the javascript code in string
 
+* func (t *ui)Script(src string)<br>
+import js file you need to use
+
+* func (t *ui)CSS(href string)<br>
+import css file you need to use
+
 -----------
 my email: 16jdzhang@stu.edu.cn<br>
 i won't update frequently, because i am very busy to find a job, otherwise my family will kill me.<br>
