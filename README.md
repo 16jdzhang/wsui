@@ -52,9 +52,12 @@ so we can open the website by http://localhost:8080/
 change the innerHTML in page body
 
 * func (t *ui)Bind(name string, f interface{})<br>
-bind a go function to a javascript function, so that the page can send argment to server, and server can return result by its return value
+bind a go function to a javascript function, so that the page can send argment to server, and server can return result to brower by its return value
 
 * func (t *ui)Exec(js string)<br>
 ask the browser to run the javascript code in string
 
 -----------
+my email: 16jdzhang@stu.edu.cn<br>
+i won't update frequently, because i am very busy to find a job, otherwise my family will kill me.<br>
+希望我能找到工作把~
