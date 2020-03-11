@@ -1,9 +1,11 @@
  wsui
 ===
-use websocket to build website
+use websocket to build website.
+wsui can help you build web application earily.
 
 # example
 ```Go
+// example.go
 package main
 
 import (
@@ -41,3 +43,18 @@ func page2(ui wsui.UI){
 	})
 }
 ```
+	go run example.go
+so we can open the website by http://localhost:8080/
+
+--------
+
+*func (t *ui)View(body string)
+change the innerHTML in page body
+
+*func (t *ui)Bind(name string, f interface{})
+bind a go function to a javascript function, so that the page can send argment to server, and server can return result by its return value
+
+*func (t *ui)Exec(js string)
+ask the browser to run the javascript code in string
+
+-----------
